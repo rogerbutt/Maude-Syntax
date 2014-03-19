@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>maude</string>
+	</array>
+	<key>name</key>
+	<string>Maude</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(fmod|op|ops|endfm|eq|ctor|var|vars|sorts|is)\b</string>
+			<key>name</key>
+			<string>keyword.control</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\-\>)</string>
+			<key>name</key>
+			<string>keyword.operator</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\*\*\*.*</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.maude</string>
+	<key>uuid</key>
+	<string>7a4e3149-6b75-48ad-99b2-af610b925345</string>
+</dict>
+</plist>
